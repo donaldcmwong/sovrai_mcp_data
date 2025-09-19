@@ -1,0 +1,19 @@
+# venv and caches
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# editors
+.vscode/
+.cursor/
+
+# local artifacts / backups
+archive/
+core.py.*
+*.backup
+uv.lock
+
+# build
+dist/
+build/

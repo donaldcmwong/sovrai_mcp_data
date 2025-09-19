@@ -2,6 +2,7 @@ import asyncio
 from fastmcp import Client
 import json
 from pprint import pprint
+
 symbols = ["EBAY", "MSFT"]
 client = Client("core.py")
 
